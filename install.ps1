@@ -30,3 +30,6 @@ $wallpaperUrl = "https://raw.githubusercontent.com/snqwq/boxstarter-configs/main
 
 Invoke-WebRequest -Uri $wallpaperUrl -OutFile $wallpaper
 set-itemproperty -path "HKCU:Control Panel\Desktop" -name WallPaper -value $wallpaper
+
+# Say Bye
+Write-Host "All done! Buh-bye!"
