@@ -1,9 +1,6 @@
 # System Configuration
 Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
-# Winget
-winget install fastfetch
-
 # Chocolatey Installs
 choco install microsoft-windows-terminal
 
