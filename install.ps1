@@ -1,9 +1,10 @@
 # System Configuration
 Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
+# Winget
+winget install fastfetch
 
 # Chocolatey Installs
-choco install winfetch
 choco install microsoft-windows-terminal
 
 choco install 7zip.install
